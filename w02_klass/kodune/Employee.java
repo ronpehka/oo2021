@@ -26,7 +26,7 @@ public class Employee {
       salary = empSalary;
    }
 
-   /* Välja print*/
+   
    public void printEmployee() {
       System.out.println("Name:"+ name );
       System.out.println("Age:" + age );
