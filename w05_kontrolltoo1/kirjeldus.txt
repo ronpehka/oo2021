@@ -1,3 +1,19 @@
 Õppejõu käest valitud kolme tasemega kontrolltööülesanne.
 
 Punktid võib esitada eraldi programmidena
+
+    public void letterAFrequency() throws IOException{
+        File file = new File("n2ide.txt");
+        Scanner scan = new Scanner(file);
+        char a = 'a';
+        char A = 'A';
+        int i;
+        int count = 0;
+        while(scan.hasNext()){
+            String word = scan.next();
+            System.out.println(word);
+            for(i=0)
+
+        }
+
+    }
